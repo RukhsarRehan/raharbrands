@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+  .hero-section {
+    height: 80vh;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero-img {
+    height: 70vh;
+  }
+
+  .carousel-caption {
+    bottom: 20%;
+  }
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .account-container {
+        padding: 20px 15px;
+        box-shadow: none;
+        /* Remove shadow on small screens for full-width effect */
+    }
+
+    .header {
+        margin-bottom: 20px;
+    }
+
+    .header h2 {
+        font-size: 1.1em;
+    }
+
+    .close-btn {
+        font-size: 1.3em;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group input {
+        padding: 10px;
+        font-size: 0.95em;
+    }
+
+    .forgot-password {
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 12px;
+        font-size: 0.95em;
+    }
+
+    .new-to-sapphire {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .or-divider {
+        margin: 30px 0;
+    }
+
+    .social-btn {
+        padding: 10px 15px;
+    }
+
+    .social-btn img {
+        width: 18px;
+        height: 18px;
+    }
+}
